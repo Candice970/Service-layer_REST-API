@@ -1,0 +1,29 @@
+smart_inventory_system/
+├── api/
+│   ├── book_api.py
+│   ├── user_api.py
+│   └── order_api.py
+│
+├── services/
+│   ├── book_service.py
+│   ├── user_service.py
+│   └── order_service.py
+│
+├── tests/
+│   ├── services/
+│   │   ├── test_book_service.py
+│   │   ├── test_user_service.py
+│   │   └── test_order_service.py
+│   └── api/
+│       ├── test_book_api.py
+│       ├── test_user_api.py
+│       └── test_order_api.py
+│
+├── docs/
+│   └── openapi_screenshot.png  # take this from Swagger UI
+│
+├── main.py
+├── models.py
+├── repositories.py
+├── CHANGELOG.md
+└── requirements.txt
